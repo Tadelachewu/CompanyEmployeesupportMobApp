@@ -1,0 +1,7 @@
+{
+  "expo": {
+    "name": "MyApp Mobile",
+    "slug": "myapp-mobile",
+    "platforms": ["ios", "android", "web"]
+  }
+}
