@@ -37,9 +37,9 @@ async function remove(id) {
 // Seed some example users
 (function seed() {
   if (users.length) return;
-  const u1 = { id: nextId++, name: 'Alice Admin', email: 'alice.admin@example.com', password: 'adminpass', role: 'admin', createdAt: new Date().toISOString() };
-  const u2 = { id: nextId++, name: 'Bob User', email: 'bob.user@example.com', password: 'userpass', role: 'user', createdAt: new Date().toISOString() };
-  const u3 = { id: nextId++, name: 'Charlie Support', email: 'charlie.support@example.com', password: 'supportpass', role: 'support', createdAt: new Date().toISOString() };
+  const u1 = { id: nextId++, name: 'Alice Admin', email: 'admin@gmail.com', password: 'admin', role: 'admin', createdAt: new Date().toISOString() };
+  const u2 = { id: nextId++, name: 'Bob User', email: 'user@gmail.com', password: 'user', role: 'user', createdAt: new Date().toISOString() };
+  const u3 = { id: nextId++, name: 'Charlie Support', email: 'support@gmail.com', password: 'support', role: 'support', createdAt: new Date().toISOString() };
   users.push(u1, u2, u3);
 })();
 
